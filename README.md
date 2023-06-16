@@ -1,8 +1,10 @@
-# Project: Insurance Cost Prediction
+# Project: "Insurance Cost Prediction"
 
-## Data Collection and Analysis:
+### Summery - The project aimed to predict insurance costs based on various factors such as age, sex, BMI, number of children, smoking habits, and region. The dataset was analyzed to understand its structure and identify any missing values. Categorical features were encoded into numerical values to prepare the data for modeling. The dataset was then split into training and testing sets. A linear regression model was trained on the training data and evaluated using the R-squared metric. The model demonstrated reasonably good performance with R-squared values of around 0.75 for both training and testing sets. Finally, a predictive system was built using the trained model to estimate insurance costs based on input data.
 
-### Imported necessary dependencies: numpy, pandas, matplotlib, seaborn, sklearn.
+
+Data Collection and Analysis:
+Imported necessary dependencies: numpy, pandas, matplotlib, seaborn, sklearn.
 Loaded the insurance dataset from a CSV file into a Pandas DataFrame.
 Explored the dataset by displaying the first few rows, checking the shape, and obtaining information about the columns.
 Checked for missing values (no missing values found).
@@ -11,7 +13,7 @@ Computed statistical measures of the dataset.
 Visualized the distributions and counts of various features using seaborn and matplotlib.
 Data Pre-processing:
 
-### Encoded the categorical features: sex, smoker, and region, replacing their values with numerical representations.
+Encoded the categorical features: sex, smoker, and region, replacing their values with numerical representations.
 Updated the DataFrame with the encoded values.
 Splitting the Data:
 
